@@ -21,6 +21,8 @@
    <style>
 body {
         background-image: url("high_res.jpg");
+        background-repeat:no-repeat;
+        background-size:100% 100vh;
 } 
  
 .img-round {
@@ -30,13 +32,33 @@ body {
 .img-positioner {
 
     position: relative;
-    left: 40px;
-    top: 19px;
+    left: 17px;
+    top: 17px;
+}
+
+.img-center-head {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    height: 40%;
+}
+.img-center-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 36%;
+}
+.img-center-sub {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
 
 h1{
         position: relative;
-        left: 25px; 
+        text-align: center;
         font-weight:bold;
         font-size:22pt; 
         color:black;
@@ -45,70 +67,66 @@ h1{
 
 h2{
         position: relative;
-        left: 45px; 
+        text-align: center;
         font-weight:bold;
         font-size:18pt; 
         color:black;
         font-family:Times;
       }
      
-
 </style>
 
   </head>
   <body>
 
-
-    <div class="container">
-  <div class="row">
-    <div class="col-sm">
+   <div class="container">
+   <div class="row">
+    <div class="col">
     </div>
-    <div class="col-sm">
-          <img src="ford_2.png" width="200" height="100"> </a>
+    <div class="col">
+          <p></p>
+          <img class="img-center-head" src="ford_trans.png" width="200" height="100" align="middle"> </a>
+          <p></p>
           <h1>PT Controls</h1>
-          <p><h2>AppPocket</h2></p>
-         
+          <p><h2>AppPocket</h2></p>    </div>
+    <div class="col">
     </div>
-    <div class="col-sm">
-    </div>
+   </div>    
   </div>
-</div>
 
 <hr>
 
 <div class="container">
-  <div class="row">
-    <div class="col-sm">
-            
+   <div class="row">
+    <div class="col">
       <a href="https://web.aim.ford.com" >
 
-<img class="img-round" src="aimslogo.jpg" width="100" height="100"> 
+      <img class="img-center-body img-round" src="aimslogo.jpg" width="100" height="100"> 
 
-</a> 
+      </a> 
 
- <p></p>
+      <p></p>
 
-<a href="https://focep.ford.com.tr/" >
+      <a href="https://focep.ford.com.tr/" >
 
-<img class="img-round" src="foceplogo.jpg" width="100" height="100"> </a> 
+      <img class="img-center-body img-round" src="foceplogo.jpg" width="100" height="100"> </a> 
 
     </div>
-    <div class="col-sm">
-
+    <div class="col">
       <a href="https://www.pcm.ford.com/" >
 
-<img class="img-round" src="firmware.jpg" width="100" height="100"> </a> 
+     <img class="img-center-body img-round" src="firmware.jpg" width="100" height="100"> </a> 
 
-<p></p>
+     <p></p>
 
-<a href="https://dcm.ford.com.tr/" >
+     <a href="https://dcm.ford.com.tr/" >
 
-<img class="img-round" src="mfileslogo.png" width="100" height="100"> </a>
+     <img class="img-center-body img-round" src="mfileslogo.png" width="100" height="100"> </a>
     </div>
-    <div class="col-sm">
+    <div class="col">
     </div>
+   </div>    
   </div>
-</div>
 
 <p></p>
 
@@ -116,26 +134,22 @@ h2{
 
 <div class="container">
   <div class="row">
-    <div class="col-sm">
+    <div class="col">
        <p></p>
-            <img class="img-positioner" src="ford_trans.png" width="66" height="25"> </a> </p>
+            <img class="img-center-sub" src="ford_trans.png"> </a> </p>
 
     </div>
-    <div class="col-sm">
+    <div class="col">
       <p></p>
 
-
-      <img class="img-positioner" src="siyah_otosan.png" width="70" height="15"> </a> </p>
+      <img class="img-center-sub" src="siyah_otosan.png"> </a> </p>
     </div>
-    <div class="col-sm">
+    <div class="col">
        <p></p>
-            <img class="img-positioner" src="koc_trans.png" width="65" height="20"> </a> </p>
+            <img class="img-center-sub" src="koc_trans.png"> </a> </p>
     </div>
   </div>
 </div>
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
